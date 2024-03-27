@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/AlexSH61/order/pkg"
+	"github.com/AlexSH61/1project/pkg"
 )
 
 type Config struct {

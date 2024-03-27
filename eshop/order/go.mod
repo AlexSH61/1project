@@ -1,4 +1,4 @@
-module github.com/AlexSH61/order
+module github.com/AlexSH61/1project
 
 go 1.22.0
 
