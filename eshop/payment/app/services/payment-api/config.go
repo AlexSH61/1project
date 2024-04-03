@@ -1,5 +1,5 @@
 package main
 
 type config struct {
-	Env string
+	ENV string
 }

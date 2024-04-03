@@ -29,8 +29,9 @@ func Run(log *zap.SugaredLogger) error {
 	if err != nil {
 		return err
 	}
+	fmt.Printf("%+v\n", cfg)
 
 	log.Infow("startup", "STATUS", "OK!")
-	log.Infow("cfg", "ENV", &cfg.Env)
+	log.Infow("cfg", "ENV", cfg.ENV)
 	return nil
 }
